@@ -20,12 +20,18 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/2gocash.png';
+import Project1l from './assets/img/projects/2gocash_big.png';
+import Project2 from './assets/img/projects/irent.png';
+import Project2l from './assets/img/projects/irent_big.png';
+import Project3 from './assets/img/projects/we-care.png';
+import Project3l from './assets/img/projects/we-care_big.png';
+import Project4 from './assets/img/projects/brad.png';
+import Project4l from './assets/img/projects/brad_big.png';
+import Project5 from './assets/img/projects/moa.png';
+import Project5l from './assets/img/projects/moa_big.png';
+import Project6 from './assets/img/projects/neclip.png';
+import Project6l from './assets/img/projects/neclip_big.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -119,38 +125,62 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    limage: Project1l,
+    name: '2goCash',
+    category: 'Web Development',
+    description: 'A DIGITAL BANKING EXPERIENCE for Immigrants, international students, and Visitors living or Preparing to live in the US.',
+    tech: 'JavaScript, React, NextJS, MySQL, WordPress',
+    url: 'https://2gocash.com',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
+    limage: Project2l,
+    name: 'IRent',
     category: 'web development',
+    description: 'A Web application that allows users to signin and make reservations for a house of their choice',
+    tech: 'JavaScript, React, Redux, Ruby on Rails, PostGreSQL',
+    url: 'https://github.com/danielufeli/irentapp-frontend-capstone',
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    limage: Project3l,
+    name: 'We Care Initiatives',
+    category: 'Web Development',
+    description: 'We Care Initiatives is a non-profit organization based in the US. We provide humanitarian services in the areas of Education, Healthcare and Environment, climate change and helping victims of terrorism, kidnapping, banditry, rape and child trafficking.',
+    tech: 'JavaScript, React, MySQL, WordPress',
+    url: 'https://wecareini.org',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    limage: Project4l,
+    name: 'Brad Capital',
+    category: 'Web Development',
+    description: 'Bradcapital assists retail and institutional investors in using forex and other instruments as an asset class and part of their investment objectives.',
+    tech: 'Laravel/PHP, MySQL, HTML, CSS',
+    url: 'https://bradcapitalgroup.com/',
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
+    limage: Project5l,
+    name: 'MOA Solutions',
     category: 'web development',
+    description: 'M.O.A Unique Solutions is a comprehensive Procurement and Engineering services Company, registered as a private limited company in Nigeria.',
+    tech: 'HTML, CSS, JavaScript',
+    url: 'https://moasolutionsng.com',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
+    limage: Project6l,
+    name: 'Neclip',
     category: 'web development',
+    description: 'Neclip is a social media network for sharing “hyper-local” information- news, gossip, reviews, or just about anything in the text, photo, and video forms with a cryptocurrency-based monetization system.',
+    tech: 'Flutter, Dart, Laravel/PHP, MySQL, HTML, CSS',
+    url: 'https://play.google.com/store/apps/details?id=com.organization.neclip',
   },
 ];
 
@@ -160,13 +190,7 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'UI/UX Design',
-  },
-  {
     name: 'web development',
-  },
-  {
-    name: 'branding',
   },
 ];
 
@@ -204,25 +228,25 @@ export const services = [
     icon: <FiLayout />,
     name: 'Web Design',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I help develop a custom layout for your business or a simple one for your personal use.',
   },
   {
     icon: <FiSettings />,
     name: 'Web Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I help develop web applications that are robust and user-friendly using the latest technologies and frameworks.',
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'Project Management',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I help manage your projects and deliver the best results for your business.',
   },
   {
     icon: <FiTag />,
     name: 'SEO',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I help improve the visibility of your website or a web page to search engines.',
   },
 ];
 
@@ -232,22 +256,22 @@ export const testimonials = [
     authorImg: TestiImage1,
     authorText:
       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    authorName: 'David',
+    authorPosition: '',
   },
   {
     authorImg: TestiImage2,
     authorText:
       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    authorName: 'Aisha',
+    authorPosition: '',
   },
   {
     authorImg: TestiImage3,
     authorText:
       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    authorName: 'Clementina',
+    authorPosition: '',
   },
 ];
 
@@ -257,12 +281,12 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at danielufeli@gmail.com',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Lagos, Nigeria',
     description: 'Serving clients worldwide',
   },
 ];

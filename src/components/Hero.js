@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
-import DanielImg from '../assets/img/daniel.png'
+import DanielImg from '../assets/img/home.png'
 
 const Hero = () => {
   return (
@@ -14,9 +15,11 @@ const Hero = () => {
               A Full-stack <br /> Web Developer
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">I believe in possibilities, with the right tools, data, team, and environment, you can create what you set your mind to achieve.</p>
-            <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">Work with me</button>
+            <Link to="contact" className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all cursor-pointer">
+              Work with me
+              </Link>
           </div>
-          <div className="hidden lg:flex flex-1 justify-end items-end h-full">
+          <div className="hidden lg:flex flex-1 justify-end items-center h-full">
             <img src={DanielImg} alt="" />
           </div>
         </div>
