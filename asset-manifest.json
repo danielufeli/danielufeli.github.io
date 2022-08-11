@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.24a44960.css",
-    "main.js": "/static/js/main.d9f6a8bf.js",
+    "main.js": "/static/js/main.07a2f9c9.js",
     "static/media/moa_big.png": "/static/media/moa_big.26ad69456247114e64d2.png",
     "static/media/we-care_big.png": "/static/media/we-care_big.1386d24590fef40334a7.png",
     "static/media/home.png": "/static/media/home.4bdb51c7899aa3bf6954.png",
@@ -27,10 +27,10 @@
     "static/media/about.svg": "/static/media/about.192e39ff229e6eb06083.svg",
     "index.html": "/index.html",
     "main.24a44960.css.map": "/static/css/main.24a44960.css.map",
-    "main.d9f6a8bf.js.map": "/static/js/main.d9f6a8bf.js.map"
+    "main.07a2f9c9.js.map": "/static/js/main.07a2f9c9.js.map"
   },
   "entrypoints": [
     "static/css/main.24a44960.css",
-    "static/js/main.d9f6a8bf.js"
+    "static/js/main.07a2f9c9.js"
   ]
 }
