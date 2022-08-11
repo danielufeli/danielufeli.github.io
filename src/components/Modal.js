@@ -41,7 +41,7 @@ const Modal = ({ item }) => {
                   </p>
                   <p className="mt-3 italic"><span className="font-bold">Tech Stack:</span> {item.tech} </p>
                   <br />
-                  <a href={item.url} target="_blank" className="text-red-700"> Project Link </a>
+                  <a href={item.url} target="_blank" rel="noreferrer" className="text-red-700"> Project Link </a>
                 </div>
                 {/*footer*/}
                 <div className="flex items-center justify-center p-6 border-t border-solid border-slate-200 rounded-b">

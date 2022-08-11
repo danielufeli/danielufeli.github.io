@@ -13,7 +13,7 @@ import BackToTopBtn from './components/BackToTopBtn';
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
       <Hero />
       <Brands />
@@ -25,7 +25,7 @@ const App = () => {
       <Contact />
       <Footer />
       <BackToTopBtn />
-    </div>
+    </>
   );
 };
 
