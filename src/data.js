@@ -22,6 +22,8 @@ import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 // projects images
 import Project1 from './assets/img/projects/2gocash.png';
 import Project1l from './assets/img/projects/2gocash_big.png';
+import Project1b from './assets/img/projects/godirect_user_thumb.png';
+import Project1lb from './assets/img/projects/godirect_user_big.png';
 import Project2 from './assets/img/projects/irent.png';
 import Project2l from './assets/img/projects/irent_big.png';
 import Project3 from './assets/img/projects/we-care.png';
@@ -124,6 +126,16 @@ export const brands = [
 export const projectsData = [
   {
     id: '1',
+    image: Project1b,
+    limage: Project1lb,
+    name: 'GoDirect',
+    category: 'Mobile Development',
+    description: 'GoDirect is a consumer app that connects individuals to order petroleum products such as petrol, diesel, gas, and lubricants from the nearest petroleum vendors (petrol stations) such as Ardova Plc.',
+    tech: 'Flutter/Dart, MySQL, Php/Laravel',
+    url: 'https://play.google.com/store/apps/details?id=com.godirect.gduser&hl=en',
+  },
+  {
+    id: '2',
     image: Project1,
     limage: Project1l,
     name: '2goCash',
@@ -167,7 +179,7 @@ export const projectsData = [
     image: Project5,
     limage: Project5l,
     name: 'MOA Solutions',
-    category: 'web development',
+    category: 'Web Development',
     description: 'M.O.A Unique Solutions is a comprehensive Procurement and Engineering services Company, registered as a private limited company in Nigeria.',
     tech: 'HTML, CSS, JavaScript',
     url: 'https://moasolutionsng.com',
@@ -177,7 +189,7 @@ export const projectsData = [
     image: Project6,
     limage: Project6l,
     name: 'Neclip',
-    category: 'web development',
+    category: 'Mobile Development',
     description: 'Neclip is a social media network for sharing “hyper-local” information- news, gossip, reviews, or just about anything in the text, photo, and video forms with a cryptocurrency-based monetization system.',
     tech: 'Flutter, Dart, Laravel/PHP, MySQL, HTML, CSS',
     url: 'https://play.google.com/store/apps/details?id=com.organization.neclip',
@@ -191,6 +203,9 @@ export const projectsNav = [
   },
   {
     name: 'web development',
+  },
+  {
+    name: 'mobile development',
   },
 ];
 
